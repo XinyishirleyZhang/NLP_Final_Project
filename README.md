@@ -16,6 +16,15 @@ Due to the large size of the dataset, it was not feasible to upload it directly 
 
 Please download the dataset from this link to fully replicate the analysis presented in the notebooks.
 
+## Data Source
+The dataset for this research comprises comprehensive Amazon book reviews, encapsulating both qualitative and quantitative elements that offer insights into consumer behaviors and preferences within the literary market. The `books_data` segment of the dataset presents essential bibliographic information, capturing the title, authorship details, visual and digital book previews, publisher information, publication date, online info links, genres, and reader engagement quantified through ratings counts.
+
+Concurrently, the `books_rating` portion features a granular view of individual consumer feedback, expressed through unique identifiers, profile names, helpfulness of reviews, numeric scores, temporal markers of reviews, summaries, and the complete textual content of the reviews. This multifaceted dataset not only enables a sentiment analysis of textual reviews to assess the emotions and opinions expressed by readers but also facilitates a deeper examination of the factors influencing the numerical scores books receive.
+
+By synthesizing these diverse data points, the study aims to model and predict how sentiment embedded within reviews correlates with the books' overall ratings, offering a predictive lens on how consumer sentiment potentially sways purchasing decisions. This detailed exploration of the dataset will support the research question and enhance the comprehension of the underlying analysis.
+
+For an in-depth overview of the dataset, please refer to the resources provided on Kaggle, which host discussions and downloadable content related to the dataset[Kaggle Discussion](https://www.kaggle.com/discussions/general/354528)
+
 ## Project Highlights
 - **TF-IDF Analysis**: This project leverages the TF-IDF technique to quantify the importance of words in book reviews relative to their frequency across the corpus, highlighting unique terms that correlate strongly with user ratings.
 - **Predictive Modeling**: By employing the Random Forest algorithm, the project assesses the ability of machine learning to predict book ratings based on the extracted features.
